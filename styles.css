@@ -171,3 +171,7 @@ button:hover {
   border: 1px solid hsl(0, 0%, 100%);
   background-color: hsla(0, 0%, 20%, 1);
 }
+
+.active:hover{
+	background-color: hsla(0, 0%, 40%, 1);
+}
