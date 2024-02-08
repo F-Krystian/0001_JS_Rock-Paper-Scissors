@@ -13,14 +13,15 @@
     <div class="container-wrapper">
         <div class="game-container">
             <h1 class="header-h1">Rock-Paper-Scissors</h1>
-            <h2 class="game-container__header-h2 game-result">You have won this game</h2>
-            <h2 class="game-container__header-h2 round-result">You have won</h2>   
+            <h2 class="game-container__header-h2 game-result"></h2>
+            <h2 class="game-container__header-h2 game-reset">RESET</h2>
+            <h2 class="game-container__header-h2 round-result"></h2>   
             <div class="round-container">
                 <div class="round-moves round-moves__player">
-                    <img src="./img/rock.png" alt="rock" class="round-moves-img">
+                    <img src="./img/rock.png" alt="rock" class="round-moves-img round-move-player">
                 </div>
                 <div class="round-moves round-moves__computer">
-                    <img src="./img/rock.png" alt="rock" class="round-moves-img">
+                    <img src="./img/rock.png" alt="rock" class="round-moves-img round-move-computer">
                 </div>
             </div>  
             <div class="players-container">
@@ -32,16 +33,16 @@
                             </span>
                         </div>
                         <div class="players__header__h">Player</div>
-                        <div class="players__header_score">1</div>
+                        <div class="players__header_score player-score">0</div>
                     </div>
                     <div class="players-content players-content-player players-content__box">
-                        <div class="players__move players__move-1" data-value="1">
+                        <div class="players__move player__move" data-value="0">
                             <img src="./img/rock.png" alt="rock" class="players__move-img">
                         </div>
-                        <div class="players__move players__move-2" data-value="2">
+                        <div class="players__move player__move" data-value="1">
                             <img src="./img/paper.png" alt="paper" class="players__move-img">
                         </div>
-                        <div class="players__move players__move-3" data-value="3">
+                        <div class="players__move player__move" data-value="2">
                             <img src="./img/scissors.png" alt="scissors" class="players__move-img">
                         </div>
                     </div>
@@ -54,16 +55,16 @@
                             </span>
                         </div>
                         <div class="players__header__h">Computer</div>
-                        <div class="players__header_score">1</div>
+                        <div class="players__header_score computer-score">0</div>
                     </div>
                     <div class="players-content players-content-computer players-content__box">
-                        <div class="players__move players__move-1" data-value="1">
+                        <div class="players__move computer__move" data-value="0">
                             <img src="./img/rock.png" alt="rock" class="players__move-img">
                         </div>
-                        <div class="players__move players__move-2" data-value="2">
+                        <div class="players__move computer__move" data-value="1">
                             <img src="./img/paper.png" alt="paper" class="players__move-img">
                         </div>
-                        <div class="players__move players__move-3" data-value="3">
+                        <div class="players__move computer__move" data-value="2">
                             <img src="./img/scissors.png" alt="scissors" class="players__move-img">
                         </div>
                     </div>
